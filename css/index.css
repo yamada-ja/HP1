@@ -73,13 +73,11 @@
   justify-content: space-between;
   text-align: center;
   width: 70%;
-  padding: 0px;
   margin: auto;
 }
 
 .header_inner nav ul li {
-  padding-bottom: 10px;
-  font-weight: lighter;
+  margin: 8px; /*修正箇所*/
   flex-grow: 1;
   text-align: center;
 }
@@ -89,8 +87,7 @@
 }
 
 .header_inner nav li +li{
-  border-left: 1px solid #333;
-  padding: 0 5px 0 5px; 
+  border-left: 1px solid #333; 
 }
 
 .header_inner nav ul a:hover {
