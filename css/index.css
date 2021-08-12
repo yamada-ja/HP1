@@ -189,7 +189,7 @@
 .feature_img img {
   display: block;
   width: 80%;
-  margin-left: -100px;
+  margin-left: -70px; /*修正箇所*/
   height: 530px;
 }
 
